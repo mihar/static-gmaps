@@ -69,7 +69,7 @@ module StaticGmaps
 
     def initialize(options = {})
       self.center   = options[:center]
-      self.zoom     = options[:zoom]     || StaticGmaps::default_zoom
+      self.zoom     = options[:zoom]
       self.size     = options[:size]     || StaticGmaps::default_size
       self.map_type = options[:map_type] || StaticGmaps::default_map_type
       self.key      = options[:key]      || StaticGmaps::default_key
